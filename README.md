@@ -1,81 +1,44 @@
 # Awesome-Clinical-Research-Site-Management
 
-# 顶级临床研究站点管理平台生态系统
+# Top Clinical Research Site Management Platforms & Ecosystem
 
+**Curated list of SaaS products and open-source GitHub projects**
 
+*Focusing on site operations, electronic regulatory binders, financial tracking, and subject management*
 
-**精选 SaaS 产品与开源 GitHub 项目列表**
+**Last updated: September 2026**
 
-*聚焦站点运营、电子监管文件夹、财务跟踪与受试者管理*
+This repository tracks notable **SaaS platforms** and **open-source projects** in the field of **Clinical Research Site Management**. These tools help research sites, academic medical centers, and sponsors manage study operations, track patient visits, maintain regulatory documentation, and ensure compliance across clinical trials.
 
-**最后更新：2026 年 9 月**
+**Examples** include Florence Healthcare, RealTime CTMS, Clinical Conductor, Complion, Advarra OnCore, Veeva SiteVault, CRIO, TrialKit, SimpleTrials, and Castor (leaders in this space).
 
+**Open-source highlights**: The open-source ecosystem for clinical research site management is **EDC/CDM-centric**, rather than focusing on comprehensive site operations management. **Phoenix CTMS** is the most active open-source CTMS/PRS/CDMS (Java tech stack, LGPL licensed). **LibreClinica** is the community-driven successor to OpenClinica for EDC/CDM. **clinicedc** is a Django framework with **119 module repositories**, used for data collection, monitoring, and auditing in NIH-funded trials through collaborations between the Harvard T.H. Chan School of Public Health and the Botswana-Harvard AIDS Institute Partnership. **Arcwell** is an Apache 2.0-licensed open-source clinical research platform implemented at the Perelman School of Medicine at the University of Pennsylvania, supporting eCOA/ePRO and 4,000+ custom clinical rules.
 
+Contributions welcome! Submit a PR to add/update entries. Keep descriptions factual and link to official websites.
 
-本仓库追踪 **临床研究站点管理** 领域的知名 **SaaS 平台** 与 **开源项目**。这些工具帮助研究站点、学术医疗中心和申办方管理研究运营、跟踪患者访视、维护监管文档，并确保跨临床试验的合规性。
+## Table of Contents
 
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-
-**示例** 包括 Florence Healthcare、RealTime CTMS、Clinical Conductor、Complion、Advarra OnCore、Veeva SiteVault、CRIO、TrialKit、SimpleTrials 和 Castor（该领域的领先者）。
-
-
-
-**开源重点**：临床研究站点管理的开源生态 **以 EDC/CDM 为核心**，而非完整的站点运营管理。**Phoenix CTMS** 是最活跃的开源 CTMS/PRS/CDMS，Java 技术栈，LGPL 许可 。**LibreClinica** 是 OpenClinica 的社区驱动后继者，用于 EDC/CDM 。**clinicedc** 是 Django 框架，拥有 **119 个模块仓库**，已在哈佛 T.H. Chan 公共卫生学院和博茨瓦纳-哈佛艾滋病研究所合作项目的 NIH 资助试验中用于数据采集、监测和审计 。**Arcwell** 是 Apache 2.0 许可的开源临床研究平台，已在宾夕法尼亚大学佩雷尔曼医学院实施，支持 eCOA/ePRO 和 4,000+ 自定义临床规则 。
-
-
-
-欢迎贡献！提交 PR 以添加/更新条目。保持描述事实性，并链接到官方网站。
-
-
-
-## 目录
-
-
-
-- [SaaS/托管平台](#saas托管平台)
-
-- [开源 GitHub 项目](#开源github项目)
-
-- [如何贡献](#如何贡献)
-
-- [免责声明](#免责声明)
-
-
-
-## SaaS/托管平台
-
-
+## SaaS/Hosted Platforms
 
 - **[Florence Healthcare](https://florencehc.com/)**
-
-  站点赋能平台，提供 eBinders（电子监管文件夹）、eConsent、eSource 和文档管理。FDA 21 CFR Part 11 合规，与 Cognizant SIP 集成实现申办方-站点文档交换。
-
-
+  Site enablement platform offering eBinders (electronic regulatory binder), eConsent, eSource, and document management. FDA 21 CFR Part 11 compliant with Cognizant SIP integration for sponsor-site document exchange.
 
 - **[RealTime CTMS](https://realtime-eclinical.com/)**
-
-  专为 **研究站点和 SMO** 设计的云端 CTMS，聚焦受试者招募、协调员排程、访视跟踪和站点预算财务管理。
-
-
+  Cloud-based CTMS designed specifically for **research sites and SMOs**, focusing on subject recruitment, coordinator scheduling, visit tracking, and site budget financial management.
 
 - **[Clinical Conductor (Advarra)](https://www.advarra.com/)**
-
-  面向学术医疗中心和癌症中心的行业标准 CTMS。提供受试者招募工具、财务管理、报告和分析。
-
-
+  Industry-standard CTMS for academic medical centers and cancer centers. Provides subject recruitment tools, financial management, reporting, and analytics.
 
 - **[Complion](https://complion.com/)**
-
-  站点聚焦的 eRegulatory 和 eISF 平台。提供文档管理、电子签名和合规跟踪。
-
-
+  Site-focused eRegulatory and eISF platform. Offers document management, electronic signatures, and compliance tracking.
 
 - **[Advarra OnCore](https://www.advarra.com/)**
-
-  学术医疗中心和癌症中心的首选 CTMS。管理 100,000+ 活跃研究，480+ 实时集成，与 Epic 和 Cerner EMR 集成 。
-
-
+  The CTMS of choice for academic medical centers and cancer centers. Manages 100,000+ active studies, features 480+ real-time integrations, and integrates with Epic and Cerner EMRs.
 
 - **[Veeva SiteVault](https://www.veeva.com/)**
-
-  Veeva 的站点聚焦平台，用于监管文档管理和 eISF。**免费 CTMS** 适用于管理 20 个或更
+  Veeva's site-focused platform for regulatory document management and eISF. **Free CTMS** available for managing 20 or fewer studies.
